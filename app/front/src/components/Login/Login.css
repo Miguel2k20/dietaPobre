@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.Login-Container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--white);
+  margin: 0 20px 0 20px;
+}
+
+.Form-Container {
+  width: 35vw;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  padding: 5px;
+  border-radius: 20px;
+  background: var(--tertiary-color);
+  backdrop-filter: blur(10px);
+  border: 1px solid #a3c3b6;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+  flex-direction: column;
+}
+
+.Form-Container input {
+  margin: 10px;
+  width: 25vw;
+  height: 10vh;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 1.2em;
+  font-weight: 300;
+  background: #e0f2e9;
+  border: 1px solid #a3c3b6;
+  color: #333;
+}
+
+.Form-Container input:focus {
+  outline: none;
+}
+
+.Form-Container input:active {
+  outline: none;
+}
+
+.Form-Container button {
+  margin: 10px;
+  width: 26vw;
+  height: 8vh;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 1.2em;
+  font-weight: 300;
+  background: var(--secundary-color);
+  border: 1px solid #a3c3b6;
+  color: var(--white);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.Form-Container button:hover {
+  transition: 0.1s ease;
+  background-color: var(--primary-color);
+}
+
+.welcome {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.welcome h1 {
+  font-size: 2.5em;
+}
+
+.image {
+  width: 50vw;
+  height: 100vh;
+}
+
+.image img {
+  width: 40vw;
+  height: 100vh;
+}
+
+.create-account {
+  display: flex;
+  margin-top: 30px;
+  background: var(--tertiary-color);
+  backdrop-filter: blur(10px);
+  border: 1px solid #a3c3b6;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 35vw;
+  height: 40px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
